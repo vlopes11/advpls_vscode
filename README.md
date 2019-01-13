@@ -28,11 +28,15 @@ The compilation for Windows subsystems is done via mingw-w64-gcc based on [Arch 
 
 Will show function signature and short description upon mouse hover. To be improved...
 
+Interact and collaborate with the [JSON Codex](https://gitlab.com/vlopes11/advpls_codex/blob/master/res/codex.json) to change the hover contents.
+
 * AdvPL Linter
 
  Will parse the currently open AdvPL source and report any detected programming errors, bugs, stylistic errors, and suspicious constructs. They will be reported in 'Problems' tab. Executed via commands interface (F1 shortcut).
 
  Some rules offer the "auto-fix" option. Put the cursor above the lint diagnostic, and execute > Quick-fix. If the lint rule implements an auto-fix, a selection menu will be shown to execute the fix.
+
+Interact and collaborate with the [JSON Codex](https://gitlab.com/vlopes11/advpls_codex/blob/master/res/codex.json) to change the pretty name lint validation.
 
 ### To be included
 

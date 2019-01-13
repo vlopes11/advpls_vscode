@@ -7,7 +7,11 @@
 * Implement native send request for language server
 * Lint auto-fix for current document (make stable with native workspace applyEdit)
 
-## [0.6.9] 2019-01-13
+## [0.6.11] 2019-01-14
+
+* Open AdvPL Codex
+
+## [0.6.10] 2019-01-13
 
 * Move repo to open
 
