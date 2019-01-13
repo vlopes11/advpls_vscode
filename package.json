@@ -1,0 +1,123 @@
+{
+    "name": "advpls-client",
+    "displayName": "AdvPLS Client",
+    "description": "AdvPL Language Server Client",
+    "version": "0.6.10",
+    "icon": "img/advpls-128.png",
+    "publisher": "vlopes11",
+    "license": "CC-BY-NC-ND-4.0",
+    "homepage": "https://gitlab.com/vlopes11/advpls_vscode",
+    "url": "https://gitlab.com/vlopes11/advpls_vscode/issues",
+    "repository": {
+        "type": "git",
+        "url": "https://gitlab.com/vlopes11/advpls_vscode.git"
+    },
+    "os": [
+        "win32",
+        "linux"
+    ],
+    "keywords": [
+        "advpl"
+    ],
+    "engines": {
+        "vscode": "^1.27.0"
+    },
+    "activationEvents": [
+        "onLanguage:advpl"
+    ],
+    "categories": [
+        "Linters",
+        "Snippets",
+        "Programming Languages"
+    ],
+    "main": "./out/extension",
+    "contributes": {
+        "languages": [
+            {
+                "id": "advpl",
+                "extensions": [
+                    ".prw",
+                    ".prx",
+                    ".prg"
+                ]
+            }
+        ],
+        "configuration": {
+            "type": "object",
+            "title": "AdvPL Language Server",
+            "properties": {
+                "advpls.bin": {
+                    "type": "string",
+                    "default": "",
+                    "description": "System path to the binary of the AdvPLS"
+                },
+                "advpls.bin_dir": {
+                    "type": "string",
+                    "default": "",
+                    "description": "System base dir for AdvPLS"
+                },
+                "advpls.log_level": {
+                    "type": "string",
+                    "enum": [
+                        "off",
+                        "error",
+                        "warn",
+                        "info",
+                        "debug",
+                        "trace"
+                    ],
+                    "default": "off",
+                    "description": "Log level"
+                },
+                "advpls.auto_lint": {
+                    "type": "string",
+                    "enum": [
+                        "on",
+                        "off"
+                    ],
+                    "default": "on",
+                    "description": "Automatically execute lint on load / save file"
+                }
+            }
+        },
+        "commands": [
+            {
+                "command": "advpls.lint",
+                "title": "AdvPL Lint",
+                "description": "Execute AdvPL linter for standard language validations",
+                "category": "AdvPL"
+            },
+            {
+                "command": "advpls.lintFix",
+                "title": "AdvPL Lint Fix",
+                "description": "Fix all lint reports",
+                "category": "AdvPL"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "advpl",
+                "path": "./snippets/advpl.json"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "npm run compile && node ./node_modules/vscode/bin/test",
+        "pkgvars": "node ./node_modules/vscode/bin/install"
+    },
+    "devDependencies": {
+        "@types/mocha": "^2.2.42",
+        "@types/node": "^8.10.25",
+        "tslint": "^5.8.0",
+        "typescript": "^2.6.1"
+    },
+    "dependencies": {
+        "vscode": "^1.1.22",
+        "vscode-languageclient": "^5.1.1",
+        "vscode-languageserver-types": "^3.13.0"
+    }
+}
