@@ -7,6 +7,10 @@
 * Implement native send request for language server
 * Lint auto-fix for current document (make stable with native workspace applyEdit)
 
+## [0.6.12] 2019-01-14
+
+* Parser refactoring to optimize source formatting
+
 ## [0.6.11] 2019-01-14
 
 * Open AdvPL Codex
