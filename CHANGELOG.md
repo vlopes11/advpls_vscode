@@ -7,6 +7,14 @@
 * Implement native send request for language server
 * Lint auto-fix for current document (make stable with native workspace applyEdit)
 
+## [0.6.13] 2019-01-27
+
+* Issue #5 - Grammar - #xtranslate
+* Issue #3 - Grammar - Spaced identifier for arg decl
+* Lint - Forbid of xTranslate
+* Issue #4 - Grammar - Spaced while
+* Issue #2 - Grammar - Strong typed class atttribute
+
 ## [0.6.12] 2019-01-14
 
 * Parser refactoring to optimize source formatting
