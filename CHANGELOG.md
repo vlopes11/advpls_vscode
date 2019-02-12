@@ -7,6 +7,21 @@
 * Implement native send request for language server
 * Lint auto-fix for current document (make stable with native workspace applyEdit)
 
+## [0.7.0] 2019-02-12
+
+* Abstract Syntax Tree parsing
+* Lint - function-args-decl-type-mandatory
+* Lint - function-type-mandatory
+* Lint - var-decl-type-mandatory
+* Lint - var-decl-private-scope-warning
+* Lint - var-decl-static-scope-warning
+* Lint - var-decl-public-scope
+* Lint - var-decl-hungarian
+* Lint - var-decl-lower-camel-case-warning
+* Lint - var-decl-single-char
+* Issue #6 - Grammar - Spaced block if
+* Issue #7 - Grammar - Alias and memory spaced pointing
+
 ## [0.6.13] 2019-01-27
 
 * Issue #5 - Grammar - #xtranslate
