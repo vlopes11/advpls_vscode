@@ -7,6 +7,13 @@
 * Implement native send request for language server
 * Lint auto-fix for current document (make stable with native workspace applyEdit)
 
+## [0.7.1] 2019-02-15
+
+* Lint nice messages :)
+* Lint class-decl-end-class-deprecated
+* Issue #11 - Linter - Class from pretty name
+* Issue #12 - Linter - Assign op replaced for comp
+
 ## [0.7.0] 2019-02-12
 
 * Abstract Syntax Tree parsing
