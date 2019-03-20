@@ -7,6 +7,11 @@
 * Implement native send request for language server
 * Lint auto-fix for current document (make stable with native workspace applyEdit)
 
+## [0.7.2] 2019-03-20
+
+* Issue #10 - Parser error on Next in a For loop
+* Issue #14 - Parser Error: Array initialized with array Funcion
+
 ## [0.7.1] 2019-02-15
 
 * Lint nice messages :)
