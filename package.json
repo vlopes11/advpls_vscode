@@ -2,7 +2,7 @@
     "name": "advpls-client",
     "displayName": "AdvPLS Client",
     "description": "AdvPL Language Server Client",
-    "version": "0.7.0",
+    "version": "0.7.1",
     "icon": "img/advpls-128.png",
     "publisher": "vlopes11",
     "license": "CC-BY-NC-ND-4.0",
@@ -110,13 +110,13 @@
         "pkgvars": "node ./node_modules/vscode/bin/install"
     },
     "devDependencies": {
+        "vscode": "^1.1.22",
         "@types/mocha": "^2.2.42",
         "@types/node": "^8.10.25",
         "tslint": "^5.8.0",
         "typescript": "^2.6.1"
     },
     "dependencies": {
-        "vscode": "^1.1.22",
         "vscode-languageclient": "^5.1.1",
         "vscode-languageserver-types": "^3.13.0"
     }
