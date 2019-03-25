@@ -2,7 +2,7 @@
     "name": "advpls-client",
     "displayName": "AdvPLS Client",
     "description": "AdvPL Language Server Client",
-    "version": "0.7.3",
+    "version": "0.7.4",
     "icon": "img/advpls-128.png",
     "publisher": "vlopes11",
     "license": "CC-BY-NC-ND-4.0",

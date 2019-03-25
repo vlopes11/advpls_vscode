@@ -7,6 +7,10 @@
 * Implement native send request for language server
 * Lint auto-fix for current document (make stable with native workspace applyEdit)
 
+## [0.7.4] 2019-03-25
+
+* Removal of experimental pseudo-random generator for nice messages
+
 ## [0.7.3] 2019-03-25
 
 * Mac version released
