@@ -7,6 +7,10 @@
 * Implement native send request for language server
 * Lint auto-fix for current document (make stable with native workspace applyEdit)
 
+## [0.7.3] 2019-03-25
+
+* Mac version released
+
 ## [0.7.2] 2019-03-20
 
 * Issue #10 - Parser error on Next in a For loop

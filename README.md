@@ -20,8 +20,6 @@ The code for the backend implementation is currently closed, but the discussion 
 
 For thread safety, zero-cost abstractions, guaranteed memory safety, threads without data races and state-of-the-art performance, the backend was implemented using [Rust-Lang](https://www.rust-lang.org/en-US/).
 
-The compilation for Windows subsystems is done via mingw-w64-gcc based on [Arch Linux](https://www.archlinux.org/).
-
 ## Features
 
 * Hover documentation
@@ -48,11 +46,11 @@ In the near future we want to make available the following functionalities:
 
 No legacy support for i686 (x86) platforms will be provided.
 
-| Platform / Architecture        | Planned | x86 | x86_64 |
-|--------------------------------|---------|-----|--------|
-| Windows (7, 8, Server 2008 R2) | ✓       | x   | ✓      |
-| Linux (2.6.18 or later)        | ✓       | x   | ✓      |
-| OSX (10.7 Lion or later)       | ✓       | x   |        |
+| Platform / Architecture        | x86 | x86_64 | Built on          |
+|--------------------------------|-----|--------|-------------------|
+| Windows (7, 8, Server 2008 R2) | x   | ✓      | vs2017-win2016    |
+| Linux (2.6.18 or later)        | x   | ✓      | arch-linux-latest |
+| OSX (10.7 Lion or later)       | x   | ✓      | mac-os-10.13      |
 
 ### Requirements
 

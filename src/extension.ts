@@ -29,6 +29,8 @@ export function activate(context: vscode.ExtensionContext) {
 		}
 	} else if(platform === 'win32') {
 			binLocation = context.asAbsolutePath(path.join('bin', 'win32', 'advpls_server.exe'));
+	} else if(platform === 'darwin') {
+			binLocation = context.asAbsolutePath(path.join('bin', 'darwin', 'advpls_server'));
 	} else {
 		throw new Error('Operating system not currently supported!');
 	}
