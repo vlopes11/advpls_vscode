@@ -2,7 +2,7 @@
     "name": "advpls-client",
     "displayName": "AdvPLS Client",
     "description": "AdvPL Language Server Client",
-    "version": "0.7.4",
+    "version": "0.7.5",
     "icon": "img/advpls-128.png",
     "publisher": "vlopes11",
     "license": "CC-BY-NC-ND-4.0",
@@ -23,7 +23,7 @@
         "vscode": "^1.27.0"
     },
     "activationEvents": [
-        "onLanguage:advpl"
+        "onLanguage:advpl_language"
     ],
     "categories": [
         "Linters",
@@ -34,7 +34,7 @@
     "contributes": {
         "languages": [
             {
-                "id": "advpl",
+                "id": "advpl_language",
                 "extensions": [
                     ".prw",
                     ".prx",
@@ -96,7 +96,7 @@
         ],
         "snippets": [
             {
-                "language": "advpl",
+                "language": "advpl_language",
                 "path": "./snippets/advpl.json"
             }
         ]

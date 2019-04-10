@@ -62,10 +62,10 @@ export function activate(context: vscode.ExtensionContext) {
 	let clientOptions: LanguageClientOptions = {
 		documentSelector: [{
 			scheme: 'untitled',
-			language: 'advpl'
+			language: 'advpl_language'
 		}, {
 			scheme: 'file',
-			language: 'advpl'
+			language: 'advpl_language'
 		}],
 	};
 

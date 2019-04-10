@@ -7,6 +7,10 @@
 * Implement native send request for language server
 * Lint auto-fix for current document (make stable with native workspace applyEdit)
 
+## [0.7.5] 2019-04-11
+
+* Renaming language identifier to comply with official Totvs LSP standard
+
 ## [0.7.4] 2019-03-25
 
 * Removal of experimental pseudo-random generator for nice messages
