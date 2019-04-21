@@ -7,6 +7,12 @@
 * Implement native send request for language server
 * Lint auto-fix for current document (make stable with native workspace applyEdit)
 
+## [0.8.0] 2019-04-21
+
+* Usage of futures-jsonrpc for core LSP communication
+* Renaming language identifier to advpl
+* Major refactoring
+
 ## [0.7.5] 2019-04-11
 
 * Renaming language identifier to comply with official Totvs LSP standard
