@@ -7,6 +7,10 @@
 * Implement native send request for language server
 * Lint auto-fix for current document (make stable with native workspace applyEdit)
 
+## [0.8.1] 2019-05-28
+
+* Bug fix for binary load
+
 ## [0.8.0] 2019-04-21
 
 * Usage of futures-jsonrpc for core LSP communication
